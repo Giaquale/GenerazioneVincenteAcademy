@@ -12,7 +12,6 @@ import gva.model.Sportivo;
 public class Main {
     public static void main(String[] args) {
     	LinkedList<Sportivo> eta = new LinkedList<>();
-    	System.out.println("VALE' HAI VIST!");
     	
     	LinkedList<Sesso> generi = new LinkedList<>();
     	
@@ -23,7 +22,7 @@ public class Main {
     	try {
     		p.setPosizione((short)-1);
     	} catch(IncorrectValueException ne) {
-    		System.out.println("GIANLU HAI VIST!");
+    		System.out.println("Posizione non valida");
     	}
     	
     }

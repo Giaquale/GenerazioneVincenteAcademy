@@ -69,10 +69,11 @@ public abstract class Sportivo {
 
 	@Override
 	public String toString() {
-		return "Sportivo{}";
+		return "Sportivo [nome=" + nome + ", cognome=" + cognome + ", eta=" + eta + ", sesso=" + sesso + ", ruolo="
+				+ ruolo + ", getNome()=" + getNome() + ", getCognome()=" + getCognome() + ", getEta()=" + getEta()
+				+ ", getSesso()=" + getSesso() + ", getRuolo()=" + getRuolo() + ", getClass()=" + getClass()
+				+ ", hashCode()=" + hashCode() + ", toString()=" + super.toString() + "]";
 	}
-	
-	
-	
+
 	
 }
