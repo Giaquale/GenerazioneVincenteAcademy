@@ -17,7 +17,7 @@ public abstract class Baskettista extends Sportivo{
 			System.out.println("IMPOSSIBILE");
 		}
 		this.posizione = posizione;
-	}
+	} 
 	
 	
 	
