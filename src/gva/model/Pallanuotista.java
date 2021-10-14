@@ -12,7 +12,10 @@ public class Pallanuotista extends Sportivo{
 		return posizione;
 	}
 
-	public void setPosizione(short posizione) {
+	public void setPosizione(short posizione) throws NonVaBeneException {
+		if (posizione < 1 || posizione > 7) {
+			return new NonVaBeneException();
+		}
 		this.posizione = posizione;
 	}
 	
