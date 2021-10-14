@@ -4,7 +4,7 @@ public class Calciatore extends Sportivo {
 	private short numMaglia;
 	private boolean isMancino;
 	
-	protected Calciatore(String nome, String cognome, short eta, Sesso sesso, Ruolo ruolo, short numMaglia, boolean isMancino) {
+	public Calciatore(String nome, String cognome, short eta, Sesso sesso, Ruolo ruolo, short numMaglia, boolean isMancino) {
 		super(nome, cognome, eta, sesso, ruolo);
 		this.numMaglia = numMaglia;
 		this.isMancino = isMancino;		
