@@ -1,6 +1,5 @@
 package gva.model;
 
-public enum Stile {
+public enum StileAtletica {
 	CENTOMETRISTA, STAFFETTA, OSTACOLI
-
 }

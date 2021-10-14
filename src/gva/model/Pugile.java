@@ -2,7 +2,7 @@ package gva.model;
 
 public class Pugile extends Sportivo{
 
-	 private boolean isDestrorso;
+	private boolean isDestrorso;
 	
 	public Pugile(String nome, String cognome, short eta, Sesso sesso, Ruolo ruolo, boolean isDestrorso) {
 		super(nome, cognome, eta, sesso, ruolo);

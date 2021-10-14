@@ -14,7 +14,10 @@ public class Calciatore extends Sportivo {
 		return numMaglia;
 	}
 
-	protected void setNumMaglia(short numMaglia) {
+	protected void setNumMaglia(short numMaglia) throws IncorrectValueException{
+		if (numMaglia < 0 || numMaglia > 99) {
+			throw new IncorrectValueException("Valore non valido");
+		}
 		this.numMaglia = numMaglia;
 	}
 

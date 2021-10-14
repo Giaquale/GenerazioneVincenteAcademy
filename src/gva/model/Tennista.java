@@ -16,7 +16,14 @@ public class Tennista extends Sportivo {
 	protected void setMano(Mano mano) {
 		this.mano = mano;
 	}
-	
-	
 
+	@Override
+	public String toString() {
+		return "Tennista [mano=" + mano + ", getMano()=" + getMano() + ", getNome()=" + getNome() + ", getCognome()="
+				+ getCognome() + ", getEta()=" + getEta() + ", getSesso()=" + getSesso() + ", getRuolo()=" + getRuolo()
+				+ ", toString()=" + super.toString() + ", getClass()=" + getClass() + ", hashCode()=" + hashCode()
+				+ "]";
+	}
+	
+	
 }

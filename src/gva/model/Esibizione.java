@@ -1,6 +1,5 @@
 package gva.model;
 
-public enum Esibizione 
-{
-	SANDA, FORME
+public enum Esibizione {
+	Sanda, Forme
 }
