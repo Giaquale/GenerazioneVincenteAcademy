@@ -2,7 +2,7 @@ package gva.model;
 
 public class Marzialista extends Sportivo
 {
-	private String cintura;
+	private Cinture cintura;
 	private Esibizione esibizione;
 
 	protected Marzialista(String nome, String cognome, short eta, Sesso sesso, Ruolo ruolo) 
@@ -10,7 +10,7 @@ public class Marzialista extends Sportivo
 		super(nome, cognome, eta, sesso, ruolo);
 	}
 	
-	public Marzialista(String nome, String cognome, short eta, Sesso sesso, Ruolo ruolo, String cintura, Esibizione esibizione) 
+	public Marzialista(String nome, String cognome, short eta, Sesso sesso, Ruolo ruolo, Cinture cintura, Esibizione esibizione) 
 	{
 		super(nome, cognome, eta, sesso, ruolo);
 		this.cintura = cintura;
@@ -20,22 +20,23 @@ public class Marzialista extends Sportivo
 	
 	//------------------------------------------------------------------------------------------------------------------------//
 	
-	public String getCintura()
+	public Cinture getCintura()
 	{
 		return cintura;
 	}
 
-	public void setCintura(String cintura) 
+	public void setCintura(Cinture cintura) 
 	{
 		this.cintura = cintura;
 	}
 	
-	public Esibizione getEsibizione() {
+	public Esibizione getEsibizione() 
+	{
 		return esibizione;
 	}
 
-
-	protected void setEsibizione(Esibizione esibizione) {
+	protected void setEsibizione(Esibizione esibizione) 
+	{
 		this.esibizione = esibizione;
 	}
 	
@@ -50,4 +51,4 @@ public class Marzialista extends Sportivo
 				 "} ";
 	}
 
-}//fine
+}
