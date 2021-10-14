@@ -1,5 +1,7 @@
 package gva.model;
 
 public enum Mano {
-	dx, sx, ambi
+	Dx, Sx, Ambi
+	
+	//Carmine, l'ho messo piu' forte io!
 }
