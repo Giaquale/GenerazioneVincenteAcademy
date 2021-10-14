@@ -15,10 +15,5 @@ public class Pallanuotista extends Sportivo{
 	public void setPosizione(short posizione) {
 		this.posizione = posizione;
 	}
-
-	@Override
-	public String toString() {
-		return "Pallanuotista [posizione=" + posizione + "]";
-	}
 	
 }
